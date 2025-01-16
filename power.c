@@ -18,7 +18,7 @@ int main() {
 
 	for (i = 1; i < 11; ++i) {
 		long result = power(2, i);
-		printf("2 to the power of %d is %ld \n. ", i, result);
+		printf("2 to the power of %d is %ld\n", i, result);
 	}
 	return 0;
 }
