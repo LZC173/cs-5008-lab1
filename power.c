@@ -15,10 +15,11 @@ long power(int base, unsigned int n) {
 // power(2,10) Return: a series of string output
 int main() {
 	int i;
-	long result;
+
 	for (i = 1; i < 11; ++i) {
-		result = power(2, i);
-		printf("2 to the power of %d is %ld.", i, result);
+		long result = power(2, i);
+		printf("2 to the power of %d is %ld \n. ", i, result);
 	}
+	return 0;
 }
 
